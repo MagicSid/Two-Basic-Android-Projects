@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/verticalLayout" >
+
+        <TextView
+            android:text="@string/hole"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/holeText" />
+        <TextView
+            android:text="Par"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/holeText" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/parSpinner" 
+            android:entries="@array/ParArray" />
+        <TextView
+            android:text="Stroke Index"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/siText" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/siSpinner"
+            android:entries="@array/StrokeIndexArray" />
+        <TextView
+            android:text="Your Score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scoreText" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scoreSpinner"
+            android:entries="@array/ScoreArray" />
+        <Button
+            android:text="Save Hole"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveHoleButton" />
+        <Button
+            android:text="Back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/backButton" />
+    </LinearLayout>
+
+
+</AbsoluteLayout>

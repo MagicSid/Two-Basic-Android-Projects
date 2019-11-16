@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Basic Golf App</string>
+    <string name="title_activity_save_round">Round Scores</string>
+    <string name="Hole">Hole</string>
+    <string name="ParScore">Hole Par</string>
+    <string name="StrokeIndex">Hole SI</string>
+    <string name="YourScore">Your Score</string>
+    <string name="Back">Previous Hole</string>
+    <string name="action_settings">Settings</string>
+    <string name="save_round">Save Hole</string>
+    <string name="handicap">Average Difference Between Score and Par:</string>
+    <string name="calculate_handicap">Calculate Handicap</string>
+    <string name="enter_round">Enter Round</string>
+    <string name="calculating">Calculating...</string>
+    <string name="noScore">No rounds entered, Please save some scores.</string>
+    <string-array name="ScoreArray">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10+</item>
+    </string-array>
+    <string-array name="StrokeIndexArray">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="ParArray">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
